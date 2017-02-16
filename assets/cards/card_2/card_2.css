@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,400i,600,700');
+
+
+.card-holder-2{
+  background-image: url("../../images/card_2_bg.svg");
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  color: #ffffff;
+  font-family: 'Josefin Slab';
+  background-color: #020932;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0px 3px 29px -4px rgba(89,75,158,1);
+  -moz-box-shadow: 0px 3px 29px -4px rgba(89,75,158,1);
+  box-shadow: 0px 3px 29px -4px rgba(89,75,158,1);
+  box-sizing: border-box;
+}
+.card-holder-2__telephone{
+  width: 100%;
+  top: 30px;
+  position: relative;
+  text-align: right;
+  padding-right: 39px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+.card-holder-2__name, .card-holder-2__designation{
+  top: 50px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.card-holder-2__name {
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.card-holder-2__designation{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.line{
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #808080;
+}
+.card-holder-2__company{
+  top: 11px;
+  position: relative;
+  text-align: center;
+  color: #08D1ED;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card-holder-2__email{
+  top: 73px;
+  position: relative;
+  text-align: right;
+  padding-right: 39px;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 16px;
+}

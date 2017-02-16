@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Generator | Pramati</title>
+  <script type="text/javascript" src="assets/vendor/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/vendor/html2canvas.js"></script>
+  <script type="text/javascript" src="assets/js/actionEvents.js"></script>
+  <script type="text/javascript" src="assets/js/loadData.js"></script>
+  <script type="text/javascript" src="assets/js/init.js"></script>
+  <link rel="shortcut icon" href="assets/images/fav.ico" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/styles/home.css">
+  <link rel="stylesheet" type="text/css" href="assets/styles/responsive.css">
+</head>
+<body>
+  <div class="card container">
+    <!--Card Inputs-->
+    <div class="card__input" align="center">
+      <div class="card__input-content" align="center">
+        <label for="name">Name:</label>
+        <input type="text" maxlength="20" name="name" class="card__input-name" value="NAME HERE" onfocus="if(this.value == 'NAME HERE'){this.value='';}">
+      </div>
+      <div class="card__input-content">
+        <label for="designation">Designation</label>
+        <input type="text" maxlength="20" name="designation" class="card__input-designation" value="DESIGNATION HERE" onfocus="if(this.value == 'DESIGNATION HERE'){this.value='';}">
+      </div>
+      <div class="card__input-content">
+        <label for="company">Company</label>
+        <input type="text" maxlength="15" name="company" class="card__input-company" value="COMPANY HERE" onfocus="if(this.value == 'COMPANY HERE'){this.value='';}">
+      </div>
+      <div class="card__input-content">
+        <label for="email">Email</label>
+        <input type="email" value="EMAIL HERE" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" class="card__input-email" onfocus="if(this.value == 'EMAIL HERE'){this.value='';}">
+      </div>
+      <div class="card__input-content">
+        <label for="telephone">Telephone</label>
+        <input value="TELEPHONE NO HERE" type="text" pattern="^(\+[0-9]{1,5})?([1-9][0-9]{9})$" name="telephone" class="card__input-telephone" onfocus="if(this.value == 'TELEPHONE NO HERE'){this.value='';}">
+      </div>
+    </div>
+
+    <!--Card Output Format-->
+    <div class="card__display">
+      <div class="previous pull-left cursor"><span class="prev-btn"><img height="25" width="25" src="assets/images/up-arrow.svg"/></span></div>
+      <div class="display_area">
+        <div class="card__display-content" id="card_preview">
+
+        </div>
+      </div>
+      <div class="next cursor"><span class="next-btn"><img height="25" width="25" src="assets/images/up-arrow.svg"/></span></div>
+    <div class="pull-left"><a id="print" href="#"><img src="assets/images/print.svg" height="30" width="30"/></a></div>
+    <div class="pull-right"><a id="download" href="#"><img src="assets/images/download.svg" height="30" width="30"/></a></div>
+    </div>
+
+    <div class="printImage">
+    </div>
+  </div>
+</body>
+</html>

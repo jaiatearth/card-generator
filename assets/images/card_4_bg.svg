@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="354px" height="207px" viewBox="0 0 354 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Landscape-Copy" transform="translate(-291.000000, -418.000000)">
+            <g id="Group-9" transform="translate(291.000000, 418.000000)">
+                <g id="Group-8">
+                    <rect id="Rectangle" fill="#2E4217" x="0.76615823" y="0.217808447" width="353" height="206"></rect>
+                    <g id="Group-7" opacity="0.170000002" transform="translate(140.266158, 49.000000)">
+                        <circle id="Oval-6" fill="#F8E81C" cx="36" cy="35" r="35"></circle>
+                        <path d="M36,78.5 L36,113.514283" id="Line" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square"></path>
+                        <path d="M57.5,74.5 L73.0775629,90.0775629" id="Line" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square"></path>
+                        <path d="M13.5,73.5 L0.5,92.5" id="Line" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square"></path>
+                        <text id="BB" font-family="Chalkduster" font-size="22" font-weight="normal" letter-spacing="1.20999992" fill="#4A4A4A">
+                            <tspan x="21" y="43">BB</tspan>
+                        </text>
+                    </g>
+                    <text id="The-BlackBoard-corpo" opacity="0.170000002" font-family="Chalkduster" font-size="12" font-weight="normal" letter-spacing="0.810000002" fill="#FFFFFF">
+                        <tspan x="73.7661582" y="190">The </tspan>
+                        <tspan x="107.039307" y="190" font-size="16">B</tspan>
+                        <tspan x="118.52776" y="190">lack</tspan>
+                        <tspan x="151.429639" y="190" font-size="15">B</tspan>
+                        <tspan x="162.250689" y="190">oard corporatio</tspan>
+                        <tspan x="284.137705" y="190">n</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

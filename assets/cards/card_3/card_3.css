@@ -1,0 +1,58 @@
+/*@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,400i,600,700');*/
+/*!*font-family: 'Josefin Slab', serif;*!*/
+@import url('https://fonts.googleapis.com/css?family=Rye');
+
+.card-holder-3{
+    color: #ffffff;
+    font-family: 'Rye';
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 3px 29px -4px rgba(149,147,149,1);
+    -moz-box-shadow: 0px 3px 29px -4px rgba(149,147,149,1);
+    box-shadow: 0px 3px 29px -4px rgba(149,147,149,1);
+    box-sizing: border-box;
+    background-color: #FFF9EA;
+    color : #4A4A4A;
+}
+.card-holder-3 .left-container{
+    width: 70%;
+    padding: 17px 18px;
+    box-sizing: border-box;
+}
+.card-holder-3 .right-container{
+    width: 30%;
+    box-sizing: border-box;
+}
+.card-holder-3 .right-container img{
+    position: relative;
+    right: 26px;
+}
+.card-holder-3__company{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: left;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.card-holder-3__name{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.card-holder-3__designation{
+    margin-top: 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.card-holder-3__email{
+    margin-top: 30px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.card-holder-3__telephone{
+    margin-top: 5px;
+    font-size: 13px;
+}
