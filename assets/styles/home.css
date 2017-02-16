@@ -106,7 +106,7 @@ body{
 }
 .prev-btn, .next-btn{
   background: #FF3660;
-  padding: 20px 11px;
+  padding: 20px 18px;
   border-radius: 32px;
   color: #fff;
   font-weight: 300;
@@ -133,16 +133,24 @@ body{
   margin-bottom: 40px;
 }
 #download:hover{
-  background: indigo;
-  color: #fcc500;
+  -webkit-box-shadow: 1px 1px 9px #948794;
+  -moz-box-shadow: 1px 1px 9px #948794;
+  box-shadow: 1px 1px 9px #948794;
+
 }
 #download{
   margin-right: 20px;
-  padding: 26px 20px 20px 20px;
+  padding: 22px 20px 14px 20px;
   text-decoration: none;
   cursor: pointer;
-  background: #fcc500;
+  background: #7a00fc;
   border-radius: 3px;
+  color: #ffffff;
+  font-weight: 300;
+}
+#download img{
+  top: 2px;
+  position: relative;
 }
 
 
