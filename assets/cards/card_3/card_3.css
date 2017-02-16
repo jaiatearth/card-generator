@@ -15,13 +15,17 @@
     color : #4A4A4A;
 }
 .card-holder-3 .left-container{
-    width: 70%;
+    width: 65%;
     padding: 17px 18px;
     box-sizing: border-box;
 }
 .card-holder-3 .right-container{
-    width: 30%;
+    width: 35%;
+    background-image: url("../../images/card_3_bg.svg");
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
     box-sizing: border-box;
+    height:100%;
 }
 .card-holder-3 .right-container img{
     position: relative;

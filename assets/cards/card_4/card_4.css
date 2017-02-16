@@ -47,8 +47,24 @@
 .card-holder-4__email{
     margin-top: 10px;
 }
-.card-holder-4__email img, .card-holder-4__telephone img{
+.card-4-mail, .card-4-telephone{
     top: 3px;
     position: relative;
     left: -5px;
+}
+.card-4-mail{
+    background-image: url(../../images/card_4_mail.svg);
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    background-size: 15px 15px;
+    display: inline-block;
+}
+.card-4-telephone{
+    background-image: url(../../images/card_4_mobile.svg);
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    background-size: 15px 15px;
+    display: inline-block;
 }
