@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Card Generator | Pramati</title>
   <script type="text/javascript" src="assets/vendor/jquery.min.js"></script>
   <script type="text/javascript" src="assets/vendor/html2canvas.js"></script>
@@ -15,6 +16,7 @@
 </head>
 <body>
   <div class="card container">
+    <div class="card-header hide">CARD GENERATOR</div>
     <!--Card Inputs-->
     <div class="card__input" align="center">
       <div class="card__input-content" align="center">
@@ -48,12 +50,9 @@
         </div>
       </div>
       <div class="next cursor"><span class="next-btn"><img height="25" width="25" src="assets/images/up-arrow.svg"/></span></div>
-    <div class="pull-left"><a id="print" href="#"><img src="assets/images/print.svg" height="30" width="30"/></a></div>
-    <div class="pull-right"><a id="download" href="#"><img src="assets/images/download.svg" height="30" width="30"/></a></div>
+    <div align="center" class="add-bottom-space download-parent"> <a id="download" href="#">Download Card <img src="assets/images/download.svg" height="30" width="30"/></a></div>
     </div>
 
-    <div class="printImage">
-    </div>
   </div>
 </body>
 </html>

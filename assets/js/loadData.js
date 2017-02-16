@@ -18,8 +18,8 @@
         loadDataToHtml : function(i) {
             $('.card__display-content').load('assets/cards/'+cardData[i].style+'/'+cardData[i].style+'.html',function(){
                 callTo.fillCardData();
+                activate.generateImage();
             });
-            activate.generateImage();
         },
         loadNext : function(){
             if(cardIndex+1 == cardData.length){
@@ -27,7 +27,7 @@
             }
             cardIndex++;
             callTo.loadDataToHtml(cardIndex);
-            this.generateImage();
+            activate.generateImage();
         },
         loadPrevious : function(){
             if(cardIndex==0){

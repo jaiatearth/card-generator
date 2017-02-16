@@ -16,6 +16,9 @@ body{
 .container{
   height: 100vh;
 }
+.hide{
+  display: none;
+}
 .disable-btn{
   background: #D4D4D4;
   pointer-events: none;
@@ -123,3 +126,23 @@ body{
   top: 8px;
   position: relative;
 }
+
+.download-parent{
+  width: 100%;
+  margin-top: 56px;
+  margin-bottom: 40px;
+}
+#download:hover{
+  background: indigo;
+  color: #fcc500;
+}
+#download{
+  margin-right: 20px;
+  padding: 26px 20px 20px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  background: #fcc500;
+  border-radius: 3px;
+}
+
+

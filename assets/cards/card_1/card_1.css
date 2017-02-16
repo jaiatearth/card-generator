@@ -68,23 +68,3 @@
   position: relative;
   left: -5px;
 }
-#print, #download{
-  background: #fcc500;
-  padding: 24px 10px 4px 10px;
-  border-radius: 3px;
-}
-#print{
-  margin-left: 25px;
-}
-#download{
-  margin-right: 20px;
-}
-.printImage{
-  top: 20px;
-  position: relative;
-  left: 15%;
-  width: 100%;
-}
-.printImage canvas{
-  border: 1px solid #D4D4D4;
-}

@@ -12,9 +12,7 @@
             });
             $(document).on("keyup", ".card__input-content input", function(){
                 callTo.fillCardData();
-            });
-            $(document).on("click","#print", function(){
-               //activate.printCard();
+                activate.generateImage();
             });
             $(document).on("keydown", function(e){
                if(e.keyCode == 39 || e.keyCode == 38) {
@@ -27,19 +25,11 @@
                }
             });
         },
-        printCard : function(){
-            html2canvas($("#card_preview"), {
-                onrendered: function (canvas) {
-                    $(".printImage").append(canvas);
-                }
-            });
-            //this.generateImage();
-        },
         generateImage : function() {
             html2canvas($("#card_preview"), {
                 onrendered: function (canvas) {
-                    var imageData = canvas.toDataURL("image/png");
-                    var imageDataURL = imageData.replace(/^data:image\/png/, "data:application/octet-stream");
+                    var imagageData = canvas.toDataURL("image/png");
+                    var imageDataURL = imagageData.replace(/^data:image\/png/, "data:application/octet-stream");
                     $("#download").attr("download", "mycard.png").attr("href", imageDataURL);
                 }
             });
