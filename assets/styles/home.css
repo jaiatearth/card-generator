@@ -88,6 +88,12 @@ body{
   text-align: center;
   outline: none;
 }
+.previous:active,.previous:focus , .next:active, .next:focus, .prev-btn:active, .prev-btn:focus, .next-btn:active, .next-btn:focus, #download:focus, #download:active{
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color:transparent;
+}
 .display_area{
   box-sizing: border-box;
   clear: left;
@@ -116,9 +122,9 @@ body{
   -moz-box-shadow: 1px 1px 9px #948794;
   box-shadow: 1px 1px 9px #948794;
 }
-.prev-btn:hover, .next-btn:hover{
-  background: indigo;
-}
+/*.prev-btn:hover, .next-btn:hover{*/
+  /*background: indigo;*/
+/*}*/
 .prev-btn img{
   top: 4px;
   position: relative;
