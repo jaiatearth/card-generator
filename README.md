@@ -1,4 +1,4 @@
-# card-generator
+# Card Generator
 Static theme generator for business cards, based on inputs to config file. This source have 4 themes.
 
 ### Configuration 
@@ -24,6 +24,8 @@ Add card folder(which contains a HTML file & CSS file) name as a key in config, 
 
 ### UI of Carg Generatore -  Desktop View
 ![Desktop View](https://github.com/jay-git/card-generator/blob/master/card-generator-home.png)
+
+
 
 ### Sample Cards Designed and Developed
 ![Sample Cards](https://github.com/jay-git/card-generator/blob/master/cards-sample.png)
