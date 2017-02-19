@@ -26,7 +26,6 @@ Add card folder(which contains a HTML file & CSS file) name as a key in config, 
 ![Desktop View](https://github.com/jay-git/card-generator/blob/master/card-generator-home.png)
 
 
-
 ### Sample Cards Designed and Developed
 ![Sample Cards](https://github.com/jay-git/card-generator/blob/master/cards-sample.png)
 
