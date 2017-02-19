@@ -22,7 +22,7 @@ cards.json
 
 Add card folder(which contains a HTML file & CSS file) name as a key in config, to add it as a new style.
 
-### UI of Carg Generatore -  Desktop View
+### UI of Card Generator -  Desktop View
 ![Desktop View](https://github.com/jay-git/card-generator/blob/master/card-generator-home.png)
 
 
